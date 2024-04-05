@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>Project-14</title>
+</head>
+<body>
+    
+
+<!--===== Start ===== Navigation =====-->
+<section>
+                <nav>
+            <div class=" flex justify-between">
+                <div class="flex justify-between items-center px-6 md:bg-orange-100 bg-orange-200 w-full py-2">
+                    <span class="text-xl font-bold cursor-pointer"><a href="#hero_section">Logo</a></span>
+                    <span class="text-xl font-bold cursor-pointer md:hidden"><i class="fa-solid fa-bars" onclick="menu()"></i></span>
+                </div>
+                        <ul id="menu" class="md:flex items-center justify-end font-semibold md:px-0 hidden px-6 md:space-x-6 md:bg-orange-100  absolute md:relative md:mt-0 mt-10 w-full bg-slate-100 md:py-0 py-3 md:pe-6 md:space-y-0 space-y-3 ">
+                            <li><a href="#hero_section">Home</a></li>
+                            <li><a href="#about_section">About</a></li>
+                            <li><a href="#contact_section">Contact</a></li>
+                            <li><a href="#blog_section">Blog</a></li>
+                            <li><a href="#services_section">Services</a></li>
+                        </ul>
+            </div>
+        </nav>
+</section>
+<!--===== End ===== Navigation =====-->
+
+<!--========== Start ========== Hero Section ==========-->
+<section id="hero_section">
+    <div class="grid md:grid-flow-col grid-rows-1 justify-center bg-orange-100 md:h-[100vh] h-[130vh] ps-10 pt-[100px]">
+        <div class="w-[350px]">
+            <div>
+                <h1 class="text-3xl text-left font-bold"><div>ELECTRICAL</div><div>SERVICE</div><div>PROVIDERS</div></h1>
+                <p class="mt-2">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                </p>
+            </div>
+            <div class="mt-7">
+                <button><a class="bg-violet-700 py-2 px-8 rounded-md text-white" href="#">Contact us</a></button>
+            </div>
+        </div>
+        <div class="w-[300px] mt-0 ps-14">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="h-[250px] w-[250px] rounded-full" src="/Pictures/slider-img.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="h-[250px] w-[250px] rounded-full" src="/Pictures/slider-img.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="h-[250px] w-[250px] rounded-full" src="/Pictures/slider-img.jpg" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>        
+        </div>
+    </div>
+</section>
+<!--========== End ========== Hero Section ==========-->
+
+
+<!--========== Start ========== Our Services ==========-->
+<section id="services_section">
+    <div class="wow animate__animated animate__fadeInUp">
+        <h3 class="text-3xl text-center mt-[50px] ps-10 font-semibold">Our services</h3>
+        <div class="flex justify-center">
+            <div class="grid md:grid-cols-3 grid-rows-1 justify-center gap-6 mt-10 md:space-y-0 space-y-6 md:h-[460px] w-[680px]">
+                <div class="bg-slate-300 hover:bg-violet-800 h-[200px] w-[200px] rounded-xl"><br>
+                    <div class="bg-slate-300 h-[200px] w-full rounded-b-xl mb-4"> 
+                        <img class=" mx-16 pt-1 h-[100px] w-[80px]" src="/Pictures/s1 (1).png">
+                        <h3 class="text-center text-[16px] font-semibold mt-2">Equipment installation</h3>
+                        <p class="text-[12px] text-center px-1 mt-2">
+                            There are many variations of passages of Lorem Ipsum available,
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-violet-800 h-[200px] w-[200px] rounded-xl "><br>
+                    <div class="bg-slate-300 h-[200px] w-full rounded-b-xl mb-4"> 
+                        <img class=" mx-16 pt-1 h-[100px] w-[80px]" src="/Pictures/s2 (1).png">
+                        <h3 class="text-center text-[16px] font-semibold mt-2">Windmill Energy</h3>
+                        <p class="text-[12px] text-center px-1 mt-2">
+                            There are many variations of passages of Lorem Ipsum available,
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-slate-300 hover:bg-violet-800 h-[200px] w-[200px] rounded-xl"><br>
+                    <div class="bg-slate-300 h-[200px] w-full rounded-b-xl mb-4"> 
+                        <img class=" mx-16 pt-1 h-[100px] w-[80px]" src="/Pictures/s3 (1).png">
+                        <h3 class="text-center text-[16px] font-semibold mt-2">Equipment Maintenance</h3>
+                        <p class="text-[12px] text-center px-1 mt-2">
+                            There are many variations of passages of Lorem Ipsum available,
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-slate-300 hover:bg-violet-800 h-[200px] w-[200px] rounded-xl"><br>
+                    <div class="bg-slate-300 h-[200px] w-full rounded-b-xl mb-4"> 
+                        <img class=" mx-16 pt-1 h-[100px] w-[80px]" src="/Pictures/s4 (1).png">
+                        <h3 class="text-center text-[16px] font-semibold mt-2">Offshore Engineering</h3>
+                        <p class="text-[12px] text-center px-1 mt-2">
+                            There are many variations of passages of Lorem Ipsum available,
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-slate-300 hover:bg-violet-800 h-[200px] w-[200px] rounded-xl"><br>
+                    <div class="bg-slate-300 h-[200px] w-full rounded-b-xl mb-4"> 
+                        <img class=" mx-16 pt-1 h-[100px] w-[80px]" src="/Pictures/s5.png">
+                        <h3 class="text-center text-[16px] font-semibold mt-2">Electrical Wiring</h3>
+                        <p class="text-[12px] text-center px-1 mt-2">
+                            There are many variations of passages of Lorem Ipsum available,
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>  
+</section>
+<!--========== End ========== Our Services ==========-->
+        
+    
+<!--========== Start ========== About us ==========-->
+<section id="about_section">
+    <div class="md:flex grid grid-rows-1 justify-center bg-orange-100 py-8 ps-10 mt-[50px]">
+        <div class="w-[350px] mt-10 wow animate__animated animate__fadeInLeft">
+            <h3 class="text-3xl font-semibold">About Us</h3>
+            <p class="pt-4 text-start">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            </p>
+            <button class="mt-5"><a class="bg-violet-800 px-4 py-1 rounded-md text-white" href="#">Read more</a></button>
+        </div>
+        <div class="md:flex md:justify-start grid grid-rows-1 justify-center md:ms-5 wow animate__animated animate__fadeInRight">
+            <div class="mt-10">
+                <img class="h-[200px]  rounded-full" src="/Pictures/about-img1.jpg" alt="">
+            </div>
+            <div class="md:mt-28 mt-10">
+                <img class="h-[150px] rounded-full" src="/Pictures/about-img2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!--========== End ========== About us ==========-->
+
+
+<!--========== Start ========== Blog ==========-->
+<section id="blog_section">
+    <div class="mt-[50px] ps-10">
+        <h3 class="text-3xl md:text-center text-left font-semibold">Blog </h3>
+        <div class="md:flex md:justify-center md:space-x-6 mt-[30px]">
+            <div class="w-[380px] border-slate-200 border-2 wow animate__animated animate__fadeInLeft">
+                <img src="/Pictures/blog1.jpg" alt="">
+                <h5 class="text-[17px] font-semibold mt-4 ps-4">Blog Title Goes Here</h5>
+                <p class="ps-4 text-[15px] py-3">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                </p>
+            </div>
+            <div class="w-[380px] border-slate-200 border-2 wow animate__animated animate__fadeInRight">
+                <img src="/Pictures/blog2.jpg" alt="">
+                <h5 class="text-[17px] font-semibold mt-4 ps-4">Blog Title Goes Here</h5>
+                <p class="ps-4 text-[15px]  py-3">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<!--========== End ========== Blog ==========-->
+
+
+
+<!--========== Start ========== Contact us ==========-->
+<section id="contact_section">
+    <div class="mt-[50px] ps-10">
+        <div class="md:flex md:justify-center py-2 md:space-x-6 wow animate__animated animate__fadeInUp">
+            <div class="w-[380px]">
+                <h3 class="text-3xl font-semibold">Contact Us</h3>
+                    <div class="shadow-sm border-1 shadow-white mt-4">
+                        <label for="name"></label>
+                        <input class="outline-none py-2 w-full border-2" type="text" name="name" placeholder="Name:" id="name">
+                    </div>
+                    <div class=" mt-6 shadow-sm border-1 shadow-white border-2">
+                        <input class="outline-none py-2 w-[395px]" type="email" placeholder="E-mail:" name="" id="">
+                    </div>
+                    <div class="mt-6 shadow-sm border-1 shadow-white border-2">
+                        <input class="outline-none py-2 w-[395px]" type="number" placeholder="Phone Number:" name="" id="">
+                    </div>
+                    <div class="mt-6 shadow-sm border-1 shadow-white border-2">
+                        <input class="outline-none py-8 w-[395px]" type="text" placeholder="Message" name="" id="">
+                    </div>
+                    <button class="mt-5"><a class="bg-violet-800 px-8 py-2 rounded-md text-white" href="#">Send</a></button>
+            </div>
+            <div class="w-[380px] border-2 border-slate-200 md:mt-0 mt-10">
+                <div class="flex justify-center items-center h-full w-full ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29002.776404218603!2d89.93129222078986!3d24.680593840674792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fd88e58bb6a739%3A0xb296f7a43d24cbe5!2sDhanbari!5e0!3m2!1sen!2sbd!4v1712077046480!5m2!1sen!2sbd" width="335" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--========== End ========== Contact us ==========-->
+
+
+
+<!--========== Start ========== Footer ==========-->
+<section>
+    <div class="  mt-[50px] bg-black pt-36 pb-4 ps-10">
+        <div class="md:flex md:justify-center md:space-x-28 space-y-2">
+            <div>
+                <a class="text-white" href="#"><i class="fa-solid fa-location-dot"></i> passages of Lorem Ipsum available</a>
+            </div>
+            <div>
+                <a class="text-white" href="#"><i class="fa-solid fa-phone"></i> Call: +123456789</a>
+            </div>
+            <div>
+                <a class="text-white" href="#"><i class="fa-regular fa-message"></i> demo@gmail.com</a>
+            </div>
+        </div>
+        <div class="md:flex justify-center md:space-x-28 mt-8">
+            <div class="md:flex  ">
+                <div>
+                    <label for="E-mail"></label>
+                    <input class="w-[300px] py-1 outline-none " type="email" name="E-mail" placeholder="E-mail:" id="E-mail">
+                </div>
+                <div class="md:mt-1 mt-10">
+                    <button><a class="bg-violet-700 text-white py-1.5 px-6" href="#">Subscribe</a></button>
+                </div>
+            </div>
+            <div class="flex space-x-6 md:space-y-0  md:mt-0 mt-10">
+                <div class="h-[30px] w-[30px] bg-white rounded-full grid grid-flow-col justify-center cursor-pointer items-center">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="h-[30px] w-[30px] bg-white rounded-full grid grid-flow-col justify-center cursor-pointer items-center">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </div>
+                <div class="h-[30px] w-[30px] bg-white rounded-full grid grid-flow-col justify-center items-center cursor-pointer font-bold">
+                    In
+                </div>
+                <div class="h-[30px] w-[30px] bg-white rounded-full grid grid-flow-col justify-center cursor-pointer items-center"> 
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-white mt-28">
+            © 2024 All Rights Reserved By MD. Nayim Talukder.
+        </div>
+    </div>
+</section>
+<!--========== End ========== Footer ==========-->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!--=== Start === swiper.js ===-->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+<!--=== End === swiper.js ===-->
+
+<!--=== Start === wow.js ===-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<!--=== End === wow.js ===-->
+
+<script src="/Javascript/Index.js"></script>
+</body>
+</html>
